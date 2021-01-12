@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+}
+
+.text_form {
+    outline: none;
+    border-radius: 8px;
+    margin-top: 60px;
+    height: 100px;
+    width: 1000px;
+}
+
+.buton {
+    background-color: red;
+    outline: none;
+    font-size: 20px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 15px;
+    height: 55px;
+    width: 135px;
+    border-radius: 6px;
+}
