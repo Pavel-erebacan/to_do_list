@@ -23,7 +23,7 @@
     }
     
     .buton {
-        color: yellow;
+        color: green;
         font-size: 15px;
         height: 58px;
         width: 155px;
@@ -61,7 +61,16 @@
     }
     
     #text_next {
+        font-family: 'Lobster', cursive;
         text-align: center;
         font-size: 45px;
-        color: yellow;
+        color: green;
+    }
+    
+    .notes {
+        margin-left: 5%;
+        margin-top: 20px;
+        color: greenyellow;
+        font-family: 'Hachi Maru Pop', cursive;
+        font-size: 18px;
     }
