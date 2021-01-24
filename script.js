@@ -1,5 +1,6 @@
  let list = [];
  let count = -1;
+ localStorage.setItem('items', JSON.stringify(list));
 
  function save() {
      count++;
@@ -10,7 +11,9 @@
      if (list.includes(x.value)) {
          alert("УЖЕ БЫЛО!");
          console.log("-")
+         count--;
      } else {
+
          list.push(x.value);
          console.log('+');
          const r = [...container.children];
