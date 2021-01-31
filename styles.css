@@ -75,7 +75,6 @@
     .notes {
         margin-left: 5%;
         margin-top: 20px;
-        color: greenyellow;
-        font-family: 'Hachi Maru Pop', cursive;
-        font-size: 18px;
+        color: rgb(0, 0, 0);
+        font-size: 14px;
     }
